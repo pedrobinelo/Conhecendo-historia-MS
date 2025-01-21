@@ -1,0 +1,166 @@
+/* Mobile first */
+
+    /* Header */
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0088B7;
+    }
+
+    /* UNIVERSIDADE FEDERAL DO MATO GROSSO DO SUL */
+    #UFMS-DIV {
+        width: 100%;
+    }
+    #UFMS {
+        color: #FFF;
+        font-size: 5rem;
+        font-family: "Futura XBlkCn BT", "Swis721 Cn BT" , sans-serif;
+        text-align: center;
+    }
+    /* Logotipo da UFMS */
+    #UFMS-LOGO-DIV {
+        width: 10%;
+        padding: 5rem;
+        /* margin-right: 8rem; */
+    }
+    /* Botão - Sobre */
+        #about-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 5rem;
+        }
+        #DEVELOPERS {
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 3rem;
+            box-shadow: 10px 10px black;
+            background-color: #0088B7;
+            color: #FFF;
+            padding: 2rem 5rem;
+            border-radius: 3rem;
+            font-weight: 700;
+        }
+    /* Modal Sobre - Background */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;  /* 15% from the top and centered */
+            padding: 1rem 2rem; 
+            border: 1px solid #888;
+            width: 60%; /* Could be more or less, depending on screen size */
+            font-family: "Trebuchet MS", sans-serif;
+        }
+        
+        #modal-about {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin: 2rem 0;
+        }
+        .modal-content ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devs p {
+            font-size: 3rem;
+            margin: 2rem 0;
+        }
+        /* Logo da FACOM e da UFMS no modal */
+        #LOGO-FACOM-UFMS {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            column-gap: 6rem;
+            padding: 5rem 0;
+        }
+        #LOGO-FACOM-UFMS img {
+            width: 300px;
+            height: 300px;
+        }
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 6rem;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+    /* Section - Main content */
+        #main-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Logotipo do Museu da Ciência */
+        #MUSEU-LOGO-DIV {
+            width: 100%;
+        }
+        #MUSEU-LOGO {
+            width: 50%;
+            /* margin: 0 auto; */
+            display: block;
+        }
+
+    /* Footer */
+
+        footer {
+            width: 100%;
+            /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/home_photo.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center; */
+            padding-right: 10rem;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: space-evenly; */
+        }
+        /* Apresentação */
+        #presentation {
+            width: 100%;
+            text-align: center;
+            font-size: 4rem;
+            font-family: "Trebuchet MS" , sans-serif;
+        }
+        #presentation h2 {
+            color: #FFF;
+        }
+        /* Botão - Iniciar aventura */
+        #BUTTONS {
+            width: 100%;
+            text-align: end;
+        }
+        .start {
+            background-color: #0088B7;
+            color: #FFF;
+            padding: 3rem 5rem;
+            border-radius: 3rem;
+            font-weight: 700;
+            box-shadow: 20px 15px black;
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 5.5rem;
+        }

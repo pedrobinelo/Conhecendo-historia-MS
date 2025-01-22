@@ -22,6 +22,7 @@ main {
     font-size: 3.5rem;
     font-family: "Trebuchet MS", sans-serif;
     box-shadow: 10px 10px black;
+    border: 3px solid black;
 }
 
 /* Conhecendo a Pré-História de Mato Grosso do Sul */
@@ -62,5 +63,137 @@ p {
     box-shadow: 20px 15px black;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 5.5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    body {
+        object-fit: fill;
+    }
+    main {
+        margin: 0 auto;
+        padding: 2rem 4rem 1rem 4rem;
+    }
+    /* Voltar ao início */
+    .back-button {
+        padding: 4rem 0 0 0;
+    }
+    .back-button a {
+        text-decoration: none;
+    }
+    #back {
+        font-size: 1rem;
+        box-shadow: 2px 1px black;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        border: 2px solid black;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /* Conhecendo a Pré-História de Mato Grosso do Sul */
+    h1 {
+        font-size: 2rem;
+    }
+    
+    /* Descrição do quiz */
+    p {
+        font-size: 1.25rem;
+        padding: 0.5rem;
+    }
+    
+    /* Iniciar o quiz */
+    .start {
+        box-shadow: 7px 3px black;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        border: 2px solid black;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        object-fit: fill;
+    }
+    main {
+        margin: 7rem auto;
+        padding: 2rem 6rem 4rem 6rem;
+    }
+    /* Voltar ao início */
+    .back-button {
+        padding: 4rem 0 0 0;
+    }
+    .back-button a {
+        text-decoration: none;
+    }
+    #back {
+        font-size: 1.5rem;
+        box-shadow: 2px 1px black;
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        border: 2px solid black;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /* Conhecendo a Pré-História de Mato Grosso do Sul */
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    /* Descrição do quiz */
+    p {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    
+    /* Iniciar o quiz */
+    .start-quiz {
+        padding: 3rem 0;
+    }
+    .start {
+        box-shadow: 7px 3px black;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        border: 2px solid black;
+    }
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    main {
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+    /* Voltar ao início */
+    #back {
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        box-shadow: 10px 5px black;
+    }
+    
+    /* Conhecendo a Pré-História de Mato Grosso do Sul */
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    /* Descrição do quiz */
+    p {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    
+    /* Iniciar o quiz */
+    .start {
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        box-shadow: 10px 5px black;
+        font-size: 1.25rem;
+        border: 3px solid black;
+    }
+
 }
 

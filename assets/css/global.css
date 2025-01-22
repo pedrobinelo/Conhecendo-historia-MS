@@ -36,6 +36,12 @@ body {
         src: url('../fonts/trebuc.ttf') format('truetype');
     }
 
-
+/* Desktop */
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+    /* Botão de voltar ao início */
+    .back-button {
+        padding: 1rem;
+    }
+}
 
 

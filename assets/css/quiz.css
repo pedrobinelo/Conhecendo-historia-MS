@@ -141,3 +141,253 @@ body {
             font-family: "Trebuchet MS", sans-serif;
             font-size: 5.5rem;
         }
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    /* Voltar ao início */
+    .back-button {
+        padding: 2rem 0 0 1rem;
+    }
+    #back {
+        padding: 1rem;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        box-shadow: 10px 10px black;
+        border: 2px solid black;
+    }
+    
+    /* Header */
+        .question-number {
+            padding-right: 1rem;
+            font-size: 1rem;
+        }
+    
+        /* Main */
+            /* Pergunta */
+            #question {
+                width: 70%;
+                font-size: 1.15rem;
+            }
+    
+            /* Imagem da questão */
+            #question-picture {
+                padding: 1rem;
+                width: 100%;
+            }
+            #question-picture img {
+                width: 300px;
+                height: 150px;
+                border: 3px solid white;
+            } 
+            
+            /* Opções de resposta */
+            #options {
+                font-size: 1rem;
+                row-gap: 1rem;
+                margin: 0;
+                padding: 1rem;
+            }
+            #options button {
+                width: 100%;
+                height: 100%;
+                padding: 0.5rem;
+                border-radius: 2rem;
+                box-shadow: 6px 3px black;
+                border: 1px solid black;
+            }
+                  
+            /* Botão - próximo */
+            .next-question {
+                padding: 1rem;
+            }
+            #next-btn {
+                padding: 1rem 2rem;
+                border-radius: 1rem;
+                font-size: 1rem;
+                box-shadow: 6px 3px black;
+                border: 2px solid black;
+            }
+    
+    /* Fim do quiz */
+            #result-container {
+                font-size: 1rem;
+                row-gap: 2rem;
+            }
+            #result-container h2, #score, #result-container button {
+                margin: 40px 0 0
+            }
+            #result-container button {
+                padding: 1rem 2rem;
+                border-radius: 1.5rem;
+                box-shadow: 8px 7px black;
+                font-size: 1rem;
+                border: 2px solid black;
+            }
+}
+/* Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Voltar ao início */
+    #back {
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        font-size: 1.25rem;
+        box-shadow: 7px 3px black;
+        border: 3px solid black;
+    }
+
+    .question-number {
+        padding-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    /* Main */
+        /* Pergunta */
+        #question {
+            width: 65%;
+            font-size: 2rem;
+        }
+
+        /* Imagem da questão */
+        #question-picture {
+            padding: 2rem 1rem 0.5rem 1rem;
+            width: 100%;
+        }
+        #question-picture img {
+            width: 500px;
+            height: 300px;
+            border: 2px solid #FFF;
+        } 
+        
+        /* Opções de resposta */
+        #options {
+            font-size: 1.25rem;
+            row-gap: 1.5rem;
+        }
+        #options button {
+            width: 100%;
+            height: 100%;
+            padding: 0.5rem 1rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+            box-shadow: 5px 3px black;
+            box-sizing: border-box;
+        }
+              
+        /* Botão - próximo */
+        .next-question {
+            padding: 1rem;
+        }
+        #next-btn {
+            padding: 1rem 2rem;
+            border-radius: 1.5rem;
+            font-size: 2rem;
+            box-shadow: 6px 3px black;
+            border: 3px solid black;
+        }
+
+/* Fim do quiz */
+        #result-container {
+            font-size: 2rem;
+            justify-content: flex-start;
+        }
+        #result-container h2 {
+            margin: 2rem 0;
+        }
+        #score {
+            margin: 0;
+        }
+        #result-container button {
+            padding: 1rem 2rem;
+            border-radius: 1.5rem;
+            box-shadow: 8px 4px black;
+            font-size: 1.5rem;
+            border: 3px solid black;
+        }
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 2000px) {
+    /* Voltar ao início */
+    #back {
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        box-shadow: 7px 3px black;
+        border: 3px solid black;
+    }
+
+    .question-number {
+        padding-right: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    /* Main */
+        /* Pergunta */
+        #question {
+            width: 60%;
+            font-size: 1rem;
+        }
+
+        /* Imagem da questão */
+        #question-picture {
+            padding: 1rem 1rem 0.5rem 0.5rem;
+            width: 100%;
+        }
+        #question-picture img {
+            width: 270px;
+            height: 130px;
+            border: 2px solid #FFF;
+        } 
+        
+        /* Opções de resposta */
+        #options {
+            font-size: 0.8rem;
+            row-gap: 0.5rem;
+            padding: 1rem;
+        }
+        #options button {
+            width: 100%;
+            height: 100%;
+            padding: 0.5rem 1rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+            box-shadow: 5px 3px black;
+            box-sizing: border-box;
+        }
+              
+        /* Botão - próximo */
+        .next-question {
+            padding: 0.5rem;
+        }
+        #next-btn {
+            padding: 1rem;
+            border-radius: 1.5rem;
+            font-size: 1rem;
+            box-shadow: 6px 3px black;
+            border: 3px solid black;
+        }
+
+/* Fim do quiz */
+        #result-container {
+            font-size: 1rem;
+            justify-content: flex-start;
+        }
+        #result-container button {
+            padding: 1rem 2rem;
+            border-radius: 1.5rem;
+            box-shadow: 8px 4px black;
+            font-size: 1rem;
+        }
+        #result-container h2 {
+            margin: 2rem 0;
+        }
+        #score {
+            margin: 0;
+        }
+        #result-container button {
+            padding: 1rem 2rem;
+            border-radius: 1.5rem;
+            box-shadow: 8px 4px black;
+            font-size: 1rem;
+            border: 3px solid black;
+        }
+}

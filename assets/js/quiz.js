@@ -230,22 +230,12 @@ function restartQuiz() {
 // Inicializa o quiz
 showQuestion();
 
-// Ajustar automaticamente o tamanho dos botões de resposta, de acordo
-// com o maior conteúdo
-
-// Função para ajustar o tamanho dos botões
 function adjustButtonSizes() {
     const buttons = document.querySelectorAll('#options button');
-    let maxWidth = 0;
-
-    // Calcula a largura máxima dos botões
+    const maxHeight = Math.max(...Array.from(buttons).map(button => button.scrollHeight));
+    
     buttons.forEach(button => {
-        const buttonWidth = button.offsetWidth;
-        if (buttonWidth > maxWidth) maxWidth = buttonWidth;
+      button.style.height = `${maxHeight}px`;
     });
-
-    // Define a largura máxima em todos os botões
-    buttons.forEach(button => {
-        button.style.width = `${maxWidth}px`;
-    });
-}
+  }
+  

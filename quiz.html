@@ -43,13 +43,18 @@
     </main>
     <div class="next-question">
         <button id="next-btn" onclick="nextQuestion()">
-            Próximo
+            Próxima
         </button>
     </div>
     <div id="result-container" style="display: none;">
         <h2>Quiz finalizado!</h2>
         <p id="score"></p>
-        <button onclick="restartQuiz()">Reiniciar quiz</button>
+        <!-- <button onclick="restartQuiz()">Reiniciar quiz</button> -->
+        <a href="index.html">
+            <button id="back" style="text-decoration: none;">
+                Voltar ao início
+            </button>
+        </a>
     </div>
 
     <!-- JavaScript files -->

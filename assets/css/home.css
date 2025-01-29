@@ -1,4 +1,4 @@
-/* Mobile first */
+/* Samsung LH75W */
 
     /* Header */
     header {
@@ -128,14 +128,7 @@
 
         footer {
             width: 100%;
-            /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/home_photo.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center; */
             padding-right: 10rem;
-            /* display: flex;
-            flex-direction: column;
-            justify-content: space-evenly; */
         }
         /* Apresentação */
         #presentation {
@@ -156,7 +149,7 @@
             background-color: #0088B7;
             color: #FFF;
             padding: 3rem 5rem;
-            border-radius: 3rem;
+            border-radius: 5rem;
             font-weight: 700;
             box-shadow: 20px 15px black;
             font-family: "Trebuchet MS", sans-serif;
@@ -355,7 +348,7 @@
     }
     #DEVELOPERS {
         font-size: 1rem;
-        box-shadow: 5px 5px black;
+        box-shadow: 3px 3px black;
         border: 3px solid black;
         padding: 0.5rem 1.5rem;
         border-radius: 1rem;
@@ -414,7 +407,7 @@
     .start {
         padding: 1rem 2rem;
         border-radius: 1.5rem;
-        box-shadow: 10px 5px black;
+        box-shadow: 5px 5px black;
         font-size: 1.5rem;
         border: 3px solid black;
     }

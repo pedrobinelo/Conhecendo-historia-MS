@@ -208,7 +208,6 @@ function nextQuestion() {
 }
 
 function endQuiz() {
-    backBtn.style.visibility = "visible";
     questionNumberEl.style.visibility = "hidden";
     quizContainer.style.display = "none";
     nextBtn.style.display = "none";
@@ -229,13 +228,16 @@ function restartQuiz() {
 
 // Inicializa o quiz
 showQuestion();
+adjustButtonSizes();
 
 function adjustButtonSizes() {
     const buttons = document.querySelectorAll('#options button');
-    const maxHeight = Math.max(...Array.from(buttons).map(button => button.scrollHeight));
+    // const maxHeight = Math.max(...Array.from(buttons).map(button => button.offsetHeight));
+    const maxWidth = Math.max(...Array.from(buttons).map(button => button.offsetWidth));
     
     buttons.forEach(button => {
-      button.style.height = `${maxHeight}px`;
+    //   button.style.height = `${maxHeight}px`;
+      button.style.width = `${maxWidth}px`;
     });
   }
-  
+

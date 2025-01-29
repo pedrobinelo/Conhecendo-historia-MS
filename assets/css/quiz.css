@@ -13,7 +13,7 @@ body {
     background-color: #0088B7;
     color: #FFF;
     padding: 2rem 5rem;
-    border-radius: 3rem;
+    border-radius: 5rem;
     font-weight: 700;
     font-size: 3.5rem;
     font-family: "Trebuchet MS", sans-serif;
@@ -74,6 +74,7 @@ body {
             font-size: 3rem;
             display: flex;
             flex-direction: column;
+            /* flex-wrap: wrap; */
             align-items: center;
             justify-content: center;
             row-gap: 2.5rem;
@@ -82,6 +83,7 @@ body {
             font-family: "Trebuchet MS", sans-serif;
         }
         #options button {
+            flex: 1 1 auto;
             color: #FFF;
             background-color: #d8721e;
             padding: 1rem 2rem;
@@ -135,9 +137,9 @@ body {
             background-color: #0088B7;
             color: #FFF;
             padding: 3rem 5rem;
-            border-radius: 3rem;
+            border-radius: 5rem;
             font-weight: 700;
-            box-shadow: 20px 15px black;
+            box-shadow: 15px 15px black;
             font-family: "Trebuchet MS", sans-serif;
             font-size: 5.5rem;
         }
@@ -360,9 +362,9 @@ body {
         }
         #next-btn {
             padding: 1rem;
-            border-radius: 1.5rem;
+            border-radius: 2rem;
             font-size: 1rem;
-            box-shadow: 6px 3px black;
+            box-shadow: 3px 3px black;
             border: 3px solid black;
         }
 
@@ -370,12 +372,6 @@ body {
         #result-container {
             font-size: 1rem;
             justify-content: flex-start;
-        }
-        #result-container button {
-            padding: 1rem 2rem;
-            border-radius: 1.5rem;
-            box-shadow: 8px 4px black;
-            font-size: 1rem;
         }
         #result-container h2 {
             margin: 2rem 0;
@@ -385,9 +381,9 @@ body {
         }
         #result-container button {
             padding: 1rem 2rem;
-            border-radius: 1.5rem;
-            box-shadow: 8px 4px black;
-            font-size: 1rem;
+            border-radius: 3rem;
+            box-shadow: 3px 3px black;
+            font-size: 1.125rem;
             border: 3px solid black;
         }
 }

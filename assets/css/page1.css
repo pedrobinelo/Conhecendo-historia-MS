@@ -1,3 +1,4 @@
+/* Samsung LH75W */
 /* Background */
 body {
     width: 100%;
@@ -17,7 +18,7 @@ main {
     background-color: #0088B7;
     color: #FFF;
     padding: 2rem 5rem;
-    border-radius: 3rem;
+    border-radius: 5rem;
     font-weight: 700;
     font-size: 3.5rem;
     font-family: "Trebuchet MS", sans-serif;
@@ -54,13 +55,14 @@ p {
 .start-quiz a {
     text-decoration: none;
 }
+
 .start {
     background-color: #0088B7;
     color: #FFF;
     padding: 3rem 5rem;
-    border-radius: 3rem;
+    border-radius: 5rem;
     font-weight: 700;
-    box-shadow: 20px 15px black;
+    box-shadow: 15px 15px black;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 5.5rem;
 }
@@ -170,9 +172,9 @@ p {
     /* Voltar ao início */
     #back {
         padding: 1rem 2rem;
-        border-radius: 1rem;
+        border-radius: 3rem;
         font-size: 1rem;
-        box-shadow: 10px 5px black;
+        box-shadow: 4px 4px black;
     }
     
     /* Conhecendo a Pré-História de Mato Grosso do Sul */
@@ -189,8 +191,8 @@ p {
     /* Iniciar o quiz */
     .start {
         padding: 1rem 2rem;
-        border-radius: 1.5rem;
-        box-shadow: 10px 5px black;
+        border-radius: 3rem;
+        box-shadow: 4px 4px black;
         font-size: 1.25rem;
         border: 3px solid black;
     }

@@ -89,7 +89,7 @@ const questions = [
     {
         // Questão 13
         question: "Quando se encontra um artefato arqueológico se deve:",
-        options: ["Levar ao IPHAN (Instituto do Patrimônio Histórico e Artístico Nacional) – ou museu/Universidade mais próxima de sua casa", "Levar para casa", "Vender na internet", "Presentear os amigos", "Vender para algum antiquário"],
+        options: ["Levar ao IPHAN (Instituto do Patrimônio Histórico e Artístico Nacional) – <br>ou Museu/Universidade mais próxima de sua casa", "Levar para casa", "Vender na internet", "Presentear os amigos", "Vender para algum antiquário"],
         correct: 0, // Índice da resposta correta
         image: "./assets/img/13.jpg"
     },
@@ -104,7 +104,7 @@ const questions = [
     {
         // Questão 15
         question: "O que são sítios arqueológicos?",
-        options: ["É um local onde foram encontrados vestígios de ocupação humana, seja esta ocupação antiga ou recente.", "É um local onde foram encontrados vestígios de dinossauros.", "É um local onde se cultiva verduras, frutas e se cuida de animais.", "É um local onde dinossauros foram enterrados propositalmente.", "É um local que se estuda idiomas"],
+        options: ["É um local onde foram encontrados vestígios de ocupação humana, <br>seja esta ocupação antiga ou recente.", "É um local onde foram encontrados vestígios de dinossauros.", "É um local onde se cultiva verduras, frutas e se cuida de animais.", "É um local onde dinossauros foram enterrados propositalmente.", "É um local que se estuda idiomas"],
         correct: 0, // Índice da resposta correta
         image: "./assets/img/15.png"
     }
@@ -161,7 +161,7 @@ function showQuestion() {
 
     currentQuestion.options.forEach((option, index) => {
         const button = document.createElement("button");
-        button.textContent = option;
+        button.innerHTML = option;
 
         // Adiciona o evento de clique ao botão
         button.onclick = () => selectAnswer(index);

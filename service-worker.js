@@ -36,8 +36,9 @@ var URLS = [
     `${GHPATH}/assets/img/15.png`,
     `${GHPATH}/assets/img/logo_facom.svg`,
     `${GHPATH}/assets/img/logo-ufms.svg`,
-    `${GHPATH}/assets/img/museu_icon-192.jpg`,
-    `${GHPATH}/assets/img/museu_icon-512.jpg`,
+    `${GHPATH}/assets/img/apple-icon-180.png`,
+    `${GHPATH}/assets/img/museu_icon-192.png`,
+    `${GHPATH}/assets/img/museu_icon-512.png`,
     `${GHPATH}/assets/img/Logo-museu.png`,
     `${GHPATH}/manifest.json`,
 ]

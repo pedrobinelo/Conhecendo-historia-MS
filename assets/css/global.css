@@ -16,13 +16,13 @@ body {
     /* Fonte Futura XBlkCn BT */
     @font-face {
         font-family: "Futura XBlkCn BT";
-        src: url('../fonts/futura\ extra\ black\ font.ttf') format('truetype');
+        src: url('../fonts/futura.ttf') format('truetype');
     }
 
     /* Fonte Swis721 Cn BT (Tipografia de apoio) */
     @font-face {
         font-family: "Swis721 Cn BT";
-        src: url('../fonts/swiss\ 721\ LT\ CN\ BTl.ttf') format('truetype');
+        src: url('../fonts/swiss.ttf') format('truetype');
     }
 
 /* Botão de voltar ao início */
